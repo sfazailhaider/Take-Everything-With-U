@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/distanceInput"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/distance_in_miles"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/notificationtext"
+        android:layout_width="337dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="165dp"
+        android:ems="10"
+        android:inputType="textLongMessage|textAutoCorrect|textMultiLine|textCapSentences"></EditText>
+
+    <Button
+        android:id="@+id/setdistancebutton"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="84dp"
+        android:background="#673AB7"
+        android:text="@string/set_distance"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/setnoficationbutton"
+        android:layout_width="292dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="258dp"
+        android:background="#FF9800"
+        android:text="Set Notification Message"
+        app:backgroundTint="#FF9800"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/standard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
+        android:layout_marginBottom="217dp"
+        android:text="@string/standard_view_map"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:text="Standard View Map" />
+
+    <ImageButton
+        android:id="@+id/standardbutton"
+        android:layout_width="87dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginBottom="192dp"
+        app:srcCompat="@drawable/standard" />
+
+    <ImageButton
+        android:id="@+id/retrobutton"
+        android:layout_width="87dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginBottom="115dp"
+        app:srcCompat="@drawable/retro" />
+
+    <TextView
+        android:id="@+id/night"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginBottom="61dp"
+        android:text="@string/night_view_map"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:text="Night View Map" />
+
+    <ImageButton
+        android:id="@+id/nightbutton"
+        android:layout_width="87dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginBottom="37dp"
+        app:srcCompat="@drawable/night" />
+
+    <TextView
+        android:id="@+id/retro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginBottom="142dp"
+        android:text="@string/retro_view_map"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:text="Retro View Map" />
+
+    <ImageButton
+        android:id="@+id/distancerefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
+        android:background="#FFFFFF"
+        android:tint="#000000"
+        app:srcCompat="@android:drawable/ic_popup_sync" />
+
+    <ImageButton
+        android:id="@+id/notifyrefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:tint="#000000"
+        app:srcCompat="@android:drawable/ic_popup_sync" />
+
+</RelativeLayout>

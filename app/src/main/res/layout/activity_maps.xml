@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="615dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginBottom="2dp" />
+
+    <Button
+        android:id="@+id/button_show_destination"
+        android:layout_width="173dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="232dp"
+        android:layout_marginLeft="232dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="@string/show_destination"
+        android:textSize="10sp"
+        app:backgroundTint="#76D73A"
+        app:iconPadding="4dp" />
+
+    <Button
+        android:id="@+id/button_show_currentlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="232dp"
+        android:layout_marginLeft="232dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="@string/show_current_location"
+        android:textSize="10sp"
+        app:backgroundTint="#76D73A"
+        app:iconPadding="4dp" />
+
+    <Button
+        android:id="@+id/button_confirm_destination"
+        android:layout_width="173dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/confirm_destination"
+        android:textSize="10sp"
+        app:backgroundTint="#76D73A"
+        app:iconPadding="4dp" />
+
+    <Button
+        android:id="@+id/workbutton"
+        android:layout_width="173dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/show_start_location"
+        android:textSize="10sp"
+        app:backgroundTint="#76D73A"
+        app:iconPadding="4dp" />
+
+    <Button
+        android:id="@+id/show_home"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="111dp"
+        android:text="Show Home"
+        app:backgroundTint="#76D73A"
+        android:textSize="10sp"
+        tools:text="Show Home" />
+
+    <Button
+        android:id="@+id/gohome"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="111dp"
+        android:text="Go Home"
+        app:backgroundTint="#76D73A"
+        android:textSize="10sp"
+        tools:text="Go Home" />
+
+    <Button
+        android:id="@+id/showwork"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="111dp"
+        android:text="Show Work"
+        app:backgroundTint="#76D73A"
+        android:textSize="10sp"
+        tools:text="Show Work" />
+
+    <Button
+        android:id="@+id/gowork"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="314dp"
+        android:layout_marginLeft="314dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="11dp"
+        android:text="Go To Work"
+        app:backgroundTint="#76D73A"
+        android:textSize="10sp"
+        tools:text="Go To Work"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="11dp" />
+
+</RelativeLayout>

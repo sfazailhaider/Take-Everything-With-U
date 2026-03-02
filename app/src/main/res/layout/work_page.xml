@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Work">
+
+    <TextView
+        android:id="@+id/hometext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:fontFamily="arial"
+        android:gravity="center"
+        android:text="@string/take_your_valuables_with_you"
+        android:textColor="#000000"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="211dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/hometext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="593dp"
+        android:text="@string/open_menu" />
+
+    <ImageView
+        android:id="@+id/home_bag"
+        android:layout_width="94dp"
+        android:layout_height="97dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="238dp"
+        android:layout_marginLeft="238dp"
+        android:layout_marginTop="67dp"
+        app:srcCompat="@drawable/suitcase" />
+
+    <TextView
+        android:id="@+id/homedetails"
+        android:layout_width="161dp"
+        android:layout_height="447dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="107dp"
+        android:gravity="center_horizontal"
+        android:text="Briefcase\n\n\n\n\n\n\nMobile Devices\n\n\n\n\n\n\nJackets/Coats/Sweaters\n\n\n\n\n\n\n\nWater Bottles"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/home_mobile"
+        android:layout_width="108dp"
+        android:layout_height="122dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/laptop" />
+
+    <ImageView
+        android:id="@+id/home_jacket"
+        android:layout_width="115dp"
+        android:layout_height="129dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:layout_marginBottom="301dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/jacket" />
+
+    <ImageView
+        android:id="@+id/home_water"
+        android:layout_width="100dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="235dp"
+        android:layout_marginLeft="235dp"
+        android:layout_marginBottom="143dp"
+        app:srcCompat="@drawable/bottle" />
+
+
+</RelativeLayout>
