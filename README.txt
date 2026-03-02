@@ -1,12 +1,12 @@
-AOA Respected Sir Shams Ud Din Qazi!
+Hello!
 Hope you are well!
 
 The Android Application "TAKE EVERYTHING WITH U" was made using Android Studio. 
 For execution of our project, install the file "app-debug.apk" in an Android Mobile. Then, turn on the mobile's Location / GPS facility. Open the
 installed application and start "TAKING EVERYTHING WITH U"
 
-The application will be explained in the demonstration and presentation.
+Demo: https://drive.google.com/file/d/1uXUskj3jwf9s0A0_8-yEj78Ad4NTFa1y/view?usp=sharing
 
 Regards,
-Shahzaib Ijaz, Zartab Khalid Khan, Syed Fazail Haider
-BSCS 10A
+Syed Fazail Haider (Team Lead)
+Group Members: Shahzaib Ijaz, Zartab Khalid Khan
